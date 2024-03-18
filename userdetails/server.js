@@ -10,7 +10,7 @@ const PORT = 3003;
 
 
 //db connection
-mydbconnection('mongodb://localhost:27017/user-details');
+mydbconnection('mongodb://localhost:27017/userdetails');
 
 //Working with middlewares
 app.use(express.json());
